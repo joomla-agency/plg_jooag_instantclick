@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.3.0" type="plugin" group="system" method="upgrade">
+	<name>System - InstantClick</name>
+	<creationDate>04.04.2013</creationDate>
+	<author>Joomla Agency</author>
+	<authorEmail>info@joomla-agentur.de</authorEmail>
+	<authorUrl>http://www.joomla-agentur.de</authorUrl>
+	<copyright>(C) 2009 - 2013 JooAg. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<version>1.0.1</version>
+	<description><![CDATA[
+	InstantClick Joomla 3.3 Intregration
+	]]>
+	</description>
+	<files>
+		<filename plugin="instantclick">instantclick.php</filename>
+	</files>
+	<media destination="instantclick" folder="media">
+		<filename>instantclick.min.js</filename>
+	</media>
+	<languages folder="administrator/language/en-GB">
+        <language tag="en-GB">en-GB.plg_system_instantclick.ini</language>
+        <language tag="en-GB">en-GB.plg_system_instantclick.sys.ini</language>
+    </languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field type="spacer" name="frontend1css" label="&lt;h2&gt;Instant Click Settings - Alpha&lt;/h2&gt;" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>
